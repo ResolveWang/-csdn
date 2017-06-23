@@ -14,8 +14,8 @@ soup = BeautifulSoup(html,'html.parser')
 form = soup.find("form")
 LT = form.find(attrs={"name":"lt"}).attrs['value']
 jsessionid = form.attrs['action'][26:66]
-username = '1796246076@qq.com'
-password = 'wang1204'
+username = 'xx'
+password = 'xxxx'
 execution = 'e1s1'
 _eventId = 'submit'
 lt = LT
